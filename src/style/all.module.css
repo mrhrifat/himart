@@ -1,0 +1,36 @@
+.logo {
+  width: 35px;
+  padding: 5px;
+}
+
+.brandName {
+  color: #6abf48;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px solid #6ABF48;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button:hover {
+  background-color: #6ABF48;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.spinner {
+  border: 0.25em solid #6ABF48;
+  border-right-color: #fff;
+}
+
+.space1 {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=all.module.css.map */

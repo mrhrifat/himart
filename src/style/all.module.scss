@@ -1,0 +1,37 @@
+@import "./variables";
+
+// Header
+.logo {
+  width: 35px;
+  padding: 5px;
+}
+.brandName {
+  color: #6abf48;
+}
+
+// Product Component
+.button {
+  background-color: $white;
+  border: 1px solid $primary;
+  border-radius: 5px;
+  box-shadow: none;
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+.link {
+  text-decoration: none;
+  color: $black;
+}
+
+// Spinner
+.spinner {
+  border: 0.25em solid $primary;
+  border-right-color: $white;
+}
+
+// Add Product
+.space1 {
+  margin: 10px 0;
+}
