@@ -7,7 +7,7 @@ const AddUser = () => {
     <div className="container">
       <div className="row">
         <div className="col-12 py-4">
-          <h4>Add New Product</h4>
+          <h4>Add New User</h4>
           <hr />
         </div>
       </div>
@@ -29,26 +29,32 @@ const AddUser = () => {
               </Col>
             </Row>
 
-            <Row>
-              <Col lg="12">
+            <Row className={classes.space1}>
+              <Col lg="6">
                 <Form.Group className="" controlId="username">
                   <Form.Label>Username</Form.Label>
                   <Form.Control type="text" placeholder="jhondoe" />
                 </Form.Group>
               </Col>
-            </Row>
-            
-            <Row>
               <Col lg="6">
-                <Form.Group className="" controlId="fname">
-                  <Form.Label>First Name</Form.Label>
-                  <Form.Control type="text" placeholder="John" />
+                <Form.Group className="" controlId="email">
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control type="email" placeholder="jhon@doe.com" />
+                </Form.Group>
+              </Col>
+            </Row>
+
+            <Row className={classes.space1}>
+              <Col lg="6">
+                <Form.Group className="" controlId="password">
+                  <Form.Label>Password</Form.Label>
+                  <Form.Control type="text" placeholder="*******" />
                 </Form.Group>
               </Col>
               <Col lg="6">
-                <Form.Group className="" controlId="lname">
-                  <Form.Label>Last Name</Form.Label>
-                  <Form.Control type="text" placeholder="Doe" />
+                <Form.Group className="" controlId="phone">
+                  <Form.Label>Phone</Form.Label>
+                  <Form.Control type="text" placeholder="+8801" />
                 </Form.Group>
               </Col>
             </Row>
