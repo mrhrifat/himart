@@ -60,34 +60,37 @@ const AddUser = () => {
             </Row>
 
             <Row className={classes.space1}>
-              <Col lg="6">
-                <Form.Group controlId="imageFile">
-                  <Form.Label>Image</Form.Label>
-                  <Form.Control type="file" />
+              <Col lg="4">
+                <Form.Group className="" controlId="city">
+                  <Form.Label>City</Form.Label>
+                  <Form.Control type="text" placeholder="San Fransisco" />
                 </Form.Group>
               </Col>
-              <Col lg="6">
-                <Form.Group>
-                  <Form.Label>Select Category</Form.Label>
-                  <Form.Select>
-                    <option>Electronics</option>
-                    <option>Jewelery</option>
-                    <option>Men's Clothing</option>
-                    <option>Women's Clothing</option>
-                  </Form.Select>
+              <Col lg="4">
+                <Form.Group className="" controlId="street">
+                  <Form.Label>Street</Form.Label>
+                  <Form.Control type="text" placeholder="San Fransisco" />
+                </Form.Group>
+              </Col>
+              <Col lg="4">
+                <Form.Group className="" controlId="no">
+                  <Form.Label>No</Form.Label>
+                  <Form.Control type="text" placeholder="4" />
                 </Form.Group>
               </Col>
             </Row>
 
             <Row className={classes.space1}>
-              <Col>
+              <Col lg="6">
                 <Form.Group controlId="description">
-                  <Form.Label>Description</Form.Label>
-                  <Form.Control
-                    as="textarea"
-                    placeholder="Eg: Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                    rows={3}
-                  />
+                  <Form.Label>Search Your Location</Form.Label>
+                  <Form.Control type="text" placeholder="San Fransisco" />
+                </Form.Group>
+              </Col>
+              <Col lg="6">
+                <Form.Group controlId="description">
+                  <Form.Label>ZIP Code</Form.Label>
+                  <Form.Control type="text" placeholder="493-8948" />
                 </Form.Group>
               </Col>
             </Row>
