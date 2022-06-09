@@ -16,15 +16,41 @@ const AddUser = () => {
           <Form className={classes.form}>
             <Row className={classes.space1}>
               <Col lg="6">
-                <Form.Group className="" controlId="name">
-                  <Form.Label>Title</Form.Label>
-                  <Form.Control type="text" placeholder="Enter product name" />
+                <Form.Group className="" controlId="fname">
+                  <Form.Label>First Name</Form.Label>
+                  <Form.Control type="text" placeholder="John" />
                 </Form.Group>
               </Col>
               <Col lg="6">
-                <Form.Group className="" controlId="price">
-                  <Form.Label>Price</Form.Label>
-                  <Form.Control type="text" placeholder="Enter product name" />
+                <Form.Group className="" controlId="lname">
+                  <Form.Label>Last Name</Form.Label>
+                  <Form.Control type="text" placeholder="Doe" />
+                </Form.Group>
+              </Col>
+            </Row>
+              <Col lg="6">
+                <Form.Group className="" controlId="fname">
+                  <Form.Label>First Name</Form.Label>
+                  <Form.Control type="text" placeholder="John" />
+                </Form.Group>
+              </Col>
+              <Col lg="6">
+                <Form.Group className="" controlId="lname">
+                  <Form.Label>Last Name</Form.Label>
+                  <Form.Control type="text" placeholder="Doe" />
+                </Form.Group>
+              </Col>
+            </Row>
+              <Col lg="6">
+                <Form.Group className="" controlId="fname">
+                  <Form.Label>First Name</Form.Label>
+                  <Form.Control type="text" placeholder="John" />
+                </Form.Group>
+              </Col>
+              <Col lg="6">
+                <Form.Group className="" controlId="lname">
+                  <Form.Label>Last Name</Form.Label>
+                  <Form.Control type="text" placeholder="Doe" />
                 </Form.Group>
               </Col>
             </Row>
