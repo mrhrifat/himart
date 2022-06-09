@@ -11,6 +11,7 @@ import AddProduct from "./components/AddProduct";
 import NewProducts from "./components/NewProducts";
 import WhyUs from "./components/WhyUs";
 import PopularProduct from "./components/PopularProducts";
+import AddUser from "./components/AddUser";
 
 class Root extends Component {
   render() {
@@ -41,6 +42,7 @@ class Root extends Component {
             <Route path="/product/:productId" element={<ProductDetails />} />
             <Route path="/login" element={<Login />} />
             <Route path="/addproduct" element={<AddProduct />} />
+            <Route path="/adduser" element={<AddUser />} />
             <Route
               path="*"
               element={
