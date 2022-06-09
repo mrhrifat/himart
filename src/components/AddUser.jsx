@@ -28,19 +28,17 @@ const AddUser = () => {
                 </Form.Group>
               </Col>
             </Row>
-              <Col lg="6">
-                <Form.Group className="" controlId="fname">
-                  <Form.Label>First Name</Form.Label>
-                  <Form.Control type="text" placeholder="John" />
-                </Form.Group>
-              </Col>
-              <Col lg="6">
-                <Form.Group className="" controlId="lname">
-                  <Form.Label>Last Name</Form.Label>
-                  <Form.Control type="text" placeholder="Doe" />
+
+            <Row>
+              <Col lg="12">
+                <Form.Group className="" controlId="username">
+                  <Form.Label>Username</Form.Label>
+                  <Form.Control type="text" placeholder="jhondoe" />
                 </Form.Group>
               </Col>
             </Row>
+            
+            <Row>
               <Col lg="6">
                 <Form.Group className="" controlId="fname">
                   <Form.Label>First Name</Form.Label>
